@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+@font-face {
+  font-family: Lausanne 300;
+  src: url('../fonts/500/Lausanne-300.eot');
+  src: url('../fonts/500/Lausanne-300.woff') format('woff'),
+       url('../fonts/500/Lausanne-300.woff2') format('woff2'),
+       url('../fonts/500/Lausanne-300.svg') format('svg'),
+       url('../fonts/500/Lausanne-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: Lausanne 500;
+    src: url('../fonts/500/Lausanne-500.eot');
+    src: url('../fonts/500/Lausanne-500.woff') format('woff'),
+         url('../fonts/500/Lausanne-500.woff2') format('woff2'),
+         url('../fonts/500/Lausanne-500.svg') format('svg'),
+         url('../fonts/500/Lausanne-500.ttf') format('truetype');
+    font-weight:500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lausanne 800;
+    src: url('../fonts/500/Lausanne-800.eot');
+    src: url('../fonts/500/Lausanne-800.woff') format('woff'),
+         url('../fonts/500/Lausanne-800.woff2') format('woff2'),
+         url('../fonts/500/Lausanne-800.svg') format('svg'),
+         url('../fonts/500/Lausanne-800.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  margin: 40px;
+  background-color: #f5f5f5;
+}
+
+.cont-vid{
+  padding: 40px;
+  background-image: url(../assets/start_bg.svg);
+  background-size: 22%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+
+.cont-text{
+  flex-grow: 1;
+  padding: 40px 40px 40px 20px;
+  background-image: url(../assets/start_bg2.svg);
+  background-size: 50%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+
+#p-header{
+  padding-top: 40px;
+  padding-bottom: 8px;
+  font-family: 'Lausanne 800', Arial, sans-serif;
+  font-size: 24px;
+  color: #009d00;
+}
+
+#p-body{
+  font-family: 'Lausanne 300', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #313131;
+}
+
+.gen-link{
+  cursor: pointer;
+  text-decoration: none;
+  background-image: url(../assets/gen_link.svg);
+  background-size: 14px 14px;
+  background-position: 60px 10px;
+  background-repeat: no-repeat;
+  font-family: 'Lausanne 500', Arial, sans-serif;
+  font-size: 14px;
+  width: 50px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin-top: 40px;
+  float: right;
+  background-color: #009d00;
+}
+
+a:hover {
+  background-color: #318e00;
+}
