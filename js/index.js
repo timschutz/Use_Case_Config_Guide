@@ -27,6 +27,7 @@ function closeNav() {
 let theSliderContent = new Splide( '.splide', {
     width : '100vw',
 		height: '100vh',
+    easing: 'ease',
 } ).mount();
 
 // LISTENING FOR ARROW CLICKS & UPDATING MENU ACCORDINGLY
@@ -77,7 +78,7 @@ function resetMenu() {
   }
 }
 
-// SLIDE IMAGE GENERATOR
+// SLIDE IMAGE & HEADER NUMBER GENERATOR 
 setSlideImage();
 
 function setSlideImage() {
