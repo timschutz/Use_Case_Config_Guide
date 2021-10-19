@@ -154,7 +154,6 @@ body {
 
   .p-header{
     display: flex;
-    /* margin: 40px 0px 12px 40px; */
     margin: 40px 0px 12px 0px;
   }
 
@@ -181,7 +180,6 @@ body {
   }
 
   #p-body{
-    /* padding: 0px 40px 12px 40px; */
     padding: 0px 40px 12px 0px;
     font-family: 'Lausanne 300', Arial, sans-serif;
     font-size: 14px;
@@ -190,20 +188,25 @@ body {
   }
 
   #link{
-    /* padding: 0px 40px 24px 40px; */
     padding: 0px 40px 24px 0px;
   }
 
-  #link div{
+  #link a{
     cursor: pointer;
     text-decoration: none;
+    color: #009d00;
+  }
+
+  #link div{
+    /* cursor: pointer;
+    text-decoration: none; */
     background-image: url(../assets/slide_link.svg);
     background-size: 12px 12px;
     background-position: left center;
     background-repeat: no-repeat;
     font-family: 'Lausanne 500', Arial, sans-serif;
     font-size: 14px;
-    color: #009d00;
+    /* color: #009d00; */
     padding-left: 25px;
     margin-top: 14px;
   }
