@@ -26,6 +26,7 @@ function closeNav() {
 // CREATING THE SLIDES
 let theSliderContent = new Splide( '.splide', {
     width : '100vw',
+    // height: '100%',
 		height: '100vh',
     easing: 'ease',
 } ).mount();

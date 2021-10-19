@@ -125,6 +125,7 @@ body {
     background-position: left top;
     background-repeat: no-repeat;
     background-color: #f5f5f5;
+    padding-left: 40px;
   }
 
   .cont-left-photo {
@@ -139,6 +140,7 @@ body {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-color: #f5f5f5;
+    padding-left: 40px;
   }
 
   .cont-right-photo {
@@ -146,22 +148,28 @@ body {
     flex-grow: 1;
   }
 
+  .more-space{
+    padding-left: 0px;
+  }
+
   .p-header{
     display: flex;
-    margin: 80px 0px 12px 80px;
+    /* margin: 40px 0px 12px 40px; */
+    margin: 40px 0px 12px 0px;
   }
 
   #p-num{
     flex-shrink: 0;
-    width: 44px;
-    height: 44px;
-    padding-top: 10px;
+    width: 32px;
+    height: 32px;
+    padding-top: 14px;
     text-align: center;
     background-image: url(../assets/circle_green.svg);
-    background-size: 44px 44px;
+    background-size: 32px 32px;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Lausanne 800', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffff;
   }
 
@@ -169,11 +177,12 @@ body {
     font-family: 'Lausanne 800', Arial, sans-serif;
     font-size: 24px;
     color: #313131;
-    padding: 10px 80px 0px 14px;
+    padding: 10px 40px 0px 14px;
   }
 
   #p-body{
-    padding: 0px 80px 12px 80px;
+    /* padding: 0px 40px 12px 40px; */
+    padding: 0px 40px 12px 0px;
     font-family: 'Lausanne 300', Arial, sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -181,7 +190,8 @@ body {
   }
 
   #link{
-    padding: 0px 80px 24px 80px;
+    /* padding: 0px 40px 24px 40px; */
+    padding: 0px 40px 24px 0px;
   }
 
   #link div{

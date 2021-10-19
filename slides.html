@@ -43,13 +43,12 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>1</div>
-                <div id='p-title'>Use Cases Explanations</div>
+                <div id='p-title'>Vendor Product Log Mapping</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>Detecting compromised credentials all starts with ingesting the proper logs. Vendor log mappings, ranked by most likely to detect to least likely to detect compromised credentials, are found in the Collect chapter of the Compromised Credentials Use Case document. </div>
                 <div id='link'>
-                  <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                  <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                  <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
+                  <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Chapter-1'>Click here for the Collect chapter of the Compromised Credentials Use Case Document</div>
+                  <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Chapter-2#Vendor-log-mapping'>Click here to jump straight to vendor log mapping</div>
                 </div>
             </div>
             <div class='cont-right-photo' id='slide1'></div>
@@ -63,13 +62,17 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>2</div>
-                <div id='p-title'>Use Case: What is it?</div>
+                <div id='p-title'>Event Types and Required Fields</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>Advanced Analytics comes with parsing of common vendor log sources out-of-the-box. However, rare log sources, custom logs and logs with errors can cause problems in the data processing pipeline and may require troubleshooting. To make sure you’ve got correctly data flowing through the pipeline it may be necessary to verify that the correct fields are being parsed for the event types that occur in each use case.</br></br>
+
+                Event Types and their respective required fields are found in the document below as a download for reference:</div>
               <div id='link'>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Event-Types-and-Required-Fields'>Compromised Credentials Event Types and Required Fields</div>
+              </div>
+              <div id='p-body'>For an always current list of required and optional fields, see the document below:</div>
+              <div id='link'>
+                <div class='l-space' href='https://github.com/ExabeamLabs/Content-Doc/blob/master/resources/cim.json'>Exabeam Content Common Information Model</div>
               </div>
             </div>
           </div>
@@ -78,19 +81,27 @@
         <!-- SLIDE BEGINNING -->
         <li class='splide__slide'>
           <div class='container'>
-            <div class='cont-left'>
+            <div class='cont-left-photo' id='slide3'></div>
+            <div class='cont-right more-space'>
               <div class='p-header'>
                 <div id='p-num'>3</div>
-                <div id='p-title'>Use Case: How does Exabeam detect it?</div>
+                <div id='p-title'>Validation of Model Convergence</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>In order for rules to trigger and models to reach a high confidence in its baseline there has to be sufficient data. It’s possible to check the confidence levels of each model in the Advanced Analytics UI. </div>
               <div id='link'>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Checking-Model-Convergence-in-the-Advanced-Analytics-User-Interface'>How to Check Model Confidence Document</div>
+              </div>
+              <div id='p-body'>Since Exabeam Use Cases often contain hundreds of rules, it’s a best practice to take a sample of models from each use case scenario and verify them in the Advanced Analytics UI. Click these links for lists of data models in the Compromised Credentials Use Case by scenario.</div>
+              <div id='link'>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Abnormal-File-Access-Scenario'>Compromised Credentials Abnormal File Access Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Compromised-Asset-Scenario'>Compromised Credentials Compromised Asset Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Compromised-Service-Account-Scenario'>Compromised Credentials Compromised Service Account Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Abnormal-Application-Access-Scenario'>Compromised Credentials Abnormal Application Access Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Abnormal-Web-Access-Scenario'>Compromised Credentials Abnormal Web Access Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Abnormal-Database-Access-Scenario'>Compromised Credentials Abnormal Database Access Scenario</div>
+                <div class='l-space' href='https://community.exabeam.com/s/article/Compromised-Credentials-Abnormal-Authentication-Access-Scenario'>Compromised Credentials Abnormal Authentication & Access Scenario</div>
               </div>
             </div>
-            <div class='cont-right-photo' id='slide3'></div>
           </div>
         </li>
         <!-- SLIDE END -->
@@ -101,7 +112,7 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>4</div>
-                <div id='p-title'>Vendor/Product Log Mapping</div>
+                <div id='p-title'>Content Dependencies</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
               <div id='link'>
@@ -119,7 +130,7 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>5</div>
-                <div id='p-title'>Validation in UI of data convergence in models</div>
+                <div id='p-title'>CM Incidents</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
               <div id='link'>
@@ -139,7 +150,7 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>6</div>
-                <div id='p-title'>Event Types and Required Fields</div>
+                <div id='p-title'>IR Playbooks</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
               <div id='link'>
@@ -157,7 +168,7 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>7</div>
-                <div id='p-title'>Content Dependencies</div>
+                <div id='p-title'>Visualizations and Dashboards</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
               <div id='link'>
@@ -177,7 +188,7 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>8</div>
-                <div id='p-title'>CM Incidents</div>
+                <div id='p-title'>Prepackaged and Custom Reports</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
               <div id='link'>
@@ -195,64 +206,6 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>9</div>
-                <div id='p-title'>IR Playbooks</div>
-              </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
-              <div id='link'>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
-              </div>
-            </div>
-            <div class='cont-right-photo' id='slide9'></div>
-          </div>
-        </li>
-        <!-- SLIDE END -->
-        <!-- SLIDE BEGINNING -->
-        <li class='splide__slide'>
-          <div class='container'>
-            <div class='cont-left-photo' id='slide10'></div>
-            <div class='cont-right'>
-              <div class='p-header'>
-                <div id='p-num'>10</div>
-                <div id='p-title'>Use Case-related Visualizations and Dashboards for DL</div>
-              </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
-              <div id='link'>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <!-- SLIDE END -->
-        <!-- SLIDE BEGINNING -->
-        <li class='splide__slide'>
-          <div class='container'>
-            <div class='cont-left'>
-              <div class='p-header'>
-                <div id='p-num'>11</div>
-                <div id='p-title'>OOTB and Custom Reports for DL</div>
-              </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
-              <div id='link'>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet conse</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adipiscing</div>
-                <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
-              </div>
-            </div>
-            <div class='cont-right-photo' id='slide11'></div>
-          </div>
-        </li>
-        <!-- SLIDE END -->
-        <!-- SLIDE BEGINNING -->
-        <li class='splide__slide'>
-          <div class='container'>
-            <div class='cont-left-photo' id='slide12'></div>
-            <div class='cont-right'>
-              <div class='p-header'>
-                <div id='p-num'>12</div>
                 <div id='p-title'>Investigation Questions</div>
               </div>
               <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
@@ -262,6 +215,7 @@
                 <div class='l-space' href='#'>Lorem ipsum dolor sit amet consectetur adip</div>
               </div>
             </div>
+            <div class='cont-right-photo' id='slide9'></div>
           </div>
         </li>
         <!-- SLIDE END -->
