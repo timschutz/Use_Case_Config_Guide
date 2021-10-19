@@ -187,6 +187,10 @@ body {
     color: #313131;
   }
 
+  .p-sub-header{
+    font-family: 'Lausanne 800', Arial, sans-serif;
+  }
+
   #link{
     padding: 0px 40px 24px 0px;
   }

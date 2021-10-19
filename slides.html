@@ -23,10 +23,10 @@
       <a href="#" id='menuBtn'>Event Types and Required Fields</a>
       <a href="#" id='menuBtn'>Validation of Model Convergence</a>
       <a href="#" id='menuBtn'>Content Dependencies</a>
-      <a href="#" id='menuBtn'>Case Management Incidents</a>
-      <a href="#" id='menuBtn'>IR Playbooks</a>
+      <a href="#" id='menuBtn'>Case Manager Incidents</a>
       <a href="#" id='menuBtn'>Visualizations, Dashboards and Reports</a>
-      <a href="#" id='menuBtn'>Reports</a>
+      <a href="#" id='menuBtn'>Prepackaged and Custom Reports</a>
+      <a href="#" id='menuBtn'>Threat Hunter</a>
       <a href="#" id='menuBtn'>Investigation Questions</a>
     </div>
   </div>
@@ -111,11 +111,15 @@
                 <div id='p-num'>4</div>
                 <div id='p-title'>Content Dependencies</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>Advanced Analytics uses other rules and sets of identifier groupings to optimize its analytics. The links below are to the specific content dependencies within rule logic for the Compromised Credentials Use Case. These are configured on installation but if things change in your environment it’s a good idea to know where these dependencies live in order to edit them should that be needed.</br></br> 
+
+                These links below are to the sections in the Compromised Credentials Use Case document where they are catalogued.
+                </div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-3-Detect#user-and-asset-labels' target='_blank'>User labels</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-3-Detect#user-and-asset-labels' target='_blank'>Asset labels</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-3-Detect#Context_Tables' target='_blank'>Context tables</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Rule-Dependencies' target='_blank'>Rule dependencies</a></div>
               </div>
             </div>
           </div>
@@ -127,13 +131,21 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>5</div>
-                <div id='p-title'>CM Incidents</div>
+                <div id='p-title'>Case Manager Incidents</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'><span class='p-sub-header'>Incident Rules</span></br>
+                It’s possible to configure Case Manager to create incidents automatically for notable sessions in Advanced Analytics or from third party security vendors. Use Case methodology is built into this automated case creation. When sessions contain activity suspected to be compromised credentials the case will reflect it and automatically add a template that conforms to a compromised credentials workflow.</br></br> 
+                
+                Instructions on how to configure your system to automatically create incidents from specific activity in your environment, see the Incident Rules content in the Exabeam Documentation Portal in the link below.</div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://docs.exabeam.com/en/case-manager/i56/configure-case-manager/127582-ingest-data-into-case-manager.html#UUID-cb1e0c12-ba33-024f-0b46-089530f7a5e3' target='_blank'>Incident Rules</a></div>
+              </div>
+              <div id='p-body'><span class='p-sub-header'>Queues</span></br>
+                Every incident is assigned a queue. Queues are intended to help you manage your incidents across the security team. You can create custom queues to fit your organization’s needs. These can be auto-assigned or manually designated.</br></br> 
+
+                Learn how to create, edit and manage queues in the Case Manager Document linked below.</div>
+              <div id='link'>
+                <div class='l-space'><a href='https://docs.exabeam.com/en/case-manager/cloud-delivered/manage-your-team/153815-case-manager-queues.html#UUID-ac2b6255-4de7-8cdf-5894-84d4de78a23f' target='_blank'>Case Manager Document</a></div>
               </div>
             </div>
             <div class='cont-right-photo' id='slide5'></div>
@@ -147,13 +159,21 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>6</div>
-                <div id='p-title'>IR Playbooks</div>
+                <div id='p-title'>Visualizations and Dashboards</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>Visualizations are a great way to show outliers in data and monitor for threats that might not bubble up into notable sessions. Visualizations are easy to build and are great for inclusion in dashboards. Visualizations and dashboards are also great for knowledge transfer.</br></br>
+
+                Some potential visualizations involving compromised credential detection are located in the Compromised Credentials Use Case Visualization Ideas article on Community linked below: </div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Visualization-Ideas' target='_blank'>Compromised Credentials Use Case Visualization Ideas</a></div>
+              </div>
+              <div id='p-body'>Visualizations are a great way to show outliers in data and monitor for threats that might not bubble up into notable sessions. Visualizations are easy to build and are great for inclusion in dashboards. Visualizations and dashboards are also great for knowledge transfer.</br></br>
+
+                Some potential visualizations involving compromised credential detection are located in the Compromised Credentials Use Case Visualization Ideas article on Community linked below: </div>
+              <div id='link'>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-6-Respond#Visualizations' target='_blank'>Visualizations</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-6-Respond#Dashboards' target='_blank'>Dashboards</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-6-Respond#Creating_Visualizations' target='_blank'>Visualization Quick Start Guide</a></div>
               </div>
             </div>
           </div>
@@ -165,14 +185,13 @@
             <div class='cont-left'>
               <div class='p-header'>
                 <div id='p-num'>7</div>
-                <div id='p-title'>Visualizations and Dashboards</div>
+                <div id='p-title'>Prepackaged and Custom Reports</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>Reports and a great way to stay informed when activity meets a criteria that indicates compromised credentials. There are prepackaged reports located in the Compromised Credentials Use Case: Respond document here:</div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-6-Respond#Reports' target='_blank'>Compromised Credentials Use Case: Respond</a></div>
               </div>
+              <div id='p-body'>You can also find information there to help build and schedule your own automated reports.</div>
             </div>
             <div class='cont-right-photo' id='slide7'></div>
           </div>
@@ -185,14 +204,13 @@
             <div class='cont-right'>
               <div class='p-header'>
                 <div id='p-num'>8</div>
-                <div id='p-title'>Prepackaged and Custom Reports</div>
+                <div id='p-title'>Threat Hunter</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>The Threat Hunter function in Advanced Analytics is a great way to search for sessions with suspected compromised credentials activity. There are prepackaged Threat Hunter searches located in the Compromised Credentials Use Case: Respond document located here:</div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Chapter-6-Respond#Threat_Hunter' target='_blank'>Compromised Credentials Use Case: Respond </a></div>
               </div>
+              <div id='p-body'>Creating customer Threat Hunter searches is also possible and is an effective way to find compromised credentials in your environment.</div>
             </div>
           </div>
         </li>
@@ -205,11 +223,9 @@
                 <div id='p-num'>9</div>
                 <div id='p-title'>Investigation Questions</div>
               </div>
-              <div id='p-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non arcu ornare, tincidunt ipsum et, faucibus sapien. Cras nec nunc faucibus, interdum eros quis, aliquet ipsum. Fusce elit nisi, consectetur eu porta vel, venenatis eget mi. Mauris pretium aliquam tortor, sed commodo risus cursus non. Praesent lobortis placerat sem eu semper. Mauris ac augue ut elit volutpat aliquam et vel ex. Quisque sodales feugiat dui, eu volutpat nulla congue at. Suspendisse elit erat, gravida ac elementum sit amet, sodales eget orci. Sed eleifend vestibulum laoreet. Ut porta ante in quam ultricies, vulputate rutrum urna fermentum. Nunc tempor dictum nisi sed imperdiet. Pellentesque sollicitudin libero et ligula ornare tincidunt. Etiam porta arcu non urna malesuada ultricies.</div>
+              <div id='p-body'>For a list of relevant investigation questions to include in an investigation workflow, see the document linked below:</div>
               <div id='link'>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet conse</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adipiscing</a></div>
-                <div class='l-space'><a href='#' target='_blank'>Lorem ipsum dolor sit amet consectetur adip</a></div>
+                <div class='l-space'><a href='https://community.exabeam.com/s/article/Compromised-Credentials-Use-Case-Investigation-Questions' target='_blank'>Compromised Credentials Use Case: Investigation Questions </a></div>
               </div>
             </div>
             <div class='cont-right-photo' id='slide9'></div>
