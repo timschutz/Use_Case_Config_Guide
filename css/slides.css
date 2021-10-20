@@ -83,6 +83,20 @@ body {
     text-decoration: none;
   }
 
+  #backBtn{
+    float: left;
+    background-image: url(../assets/btn_intro.svg);
+    background-position: 32px center;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lausanne 800', Arial, sans-serif;
+    padding-top: 3px;
+    padding-left: 48px;
+    font-size: 16px;
+    color: #313131;
+  }
+
   #closeBtn{
     cursor: pointer;
     text-decoration: none; 

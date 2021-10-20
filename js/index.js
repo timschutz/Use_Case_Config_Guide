@@ -1,5 +1,6 @@
 let closeBtn = document.getElementById("closeBtn");
 let openBtn = document.getElementById("openContainer");
+let backBtn = document.getElementById("backBtn");
 let menuSlider = document.getElementById("menu");
 let totalPages = 0;
 let currPage = 0;
@@ -11,8 +12,13 @@ gsap.to(menuSlider, {x: menuWidth, duration: 0});
   openBtn.addEventListener('click', function (){
     openNav();
   });
+
   closeBtn.addEventListener('click', function (){
     closeNav();
+  });
+
+  backBtn.addEventListener('click', function (){
+    location.href = "index.html";
   });
 
 function openNav() {
@@ -25,8 +31,9 @@ function closeNav() {
 
 // CREATING THE SLIDES
 let theSliderContent = new Splide( '.splide', {
+    rewind: true,
+    rewindSpeed: 1500,
     width : '100vw',
-    // height: '100%',
 		height: '100vh',
     easing: 'ease',
 } ).mount();
