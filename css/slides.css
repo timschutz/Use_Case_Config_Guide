@@ -78,6 +78,11 @@ body {
     color: #ffffff;
   }
 
+  #menuBtn{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
   #closeBtn{
     cursor: pointer;
     text-decoration: none; 
