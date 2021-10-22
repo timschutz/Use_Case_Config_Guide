@@ -106,8 +106,15 @@ body {
   background-color: #009d00;
 }
 
-a:hover {
+.gen-link:hover {
   background-color: #318e00;
+}
+
+#p-body a{
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Lausanne 500', Arial, sans-serif;
+  color: #009d00;
 }
 
 .p-header-list{
